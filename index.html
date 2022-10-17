@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mygame</title>
+</head>
+
+<body>
+    <div id="hero">
+        <img src="https://images.unsplash.com/photo-1606441171708-6534789d2d95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBsZW1vbnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            alt="" srcset="">
+        <form>
+            <h1>Register</h1>
+            <span>IT'S COMPLETELY FREE</span>
+            <br><br>
+            <label for="full name">First Name</label><br>
+            <input type="text" placeholder="first Name" required>
+            <br>
+            <label for="last name">Last Name</label><br>
+            <input type="text" placeholder="last Name" required>
+            <br>
+            <label for="Phone">Phone Number</label>
+            <input type="number" placeholder="Phone Number" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="" required placeholder="enter your email address here">
+            <br>
+            <label>Choose your gender:</lebel><br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <br>
+                <label for="start">Date of birth:</label><br>
+                <input type="date" id="start" name="trip-start" value="2018-07-22" min="1820-01-01" max="2022-12-31">
+                <br><br>
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+                <br>
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                    <button type="submit"><a href="index1.html">Login</a> </button>
+                </div>
+                <br><br>
+
+
+
+        </form>
+    </div>
+    <style>
+        #hero {
+            width: 60%;
+            display: flex;
+            gap: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+        }
+
+        img {
+            width: 50%;
+        
+            
+        }
+
+        input {
+            width: 300px;
+            height: 25px;
+            border-radius: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #female,
+        #male {
+            width: 20px;
+            height: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            padding: 8px 10px;
+            display: block;
+            background-color: #001601;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            margin: auto auto;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        }
+        .btn{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        span {
+            color: #537B15;
+
+        }
+    </style>
+
+
+</body>
+
+</html>
